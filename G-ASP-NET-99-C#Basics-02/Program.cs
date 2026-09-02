@@ -60,6 +60,12 @@
             int convertedPages = Convert.ToInt32(pagesText);
             Console.WriteLine(convertedPages);
             #endregion
+            #region Question8
+            //Q8
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            Console.WriteLine(year);
+            #endregion
         }
     }
 }
