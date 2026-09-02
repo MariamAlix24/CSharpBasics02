@@ -75,6 +75,12 @@
                 Console.WriteLine("Conversion failed.");
             }
             #endregion
+            #region Question9
+            //Q9
+            int pagescount = 464;
+            string pagesString = pagescount.ToString();
+            Console.WriteLine(pagesString.GetType());
+            #endregion
         }
     }
 }
