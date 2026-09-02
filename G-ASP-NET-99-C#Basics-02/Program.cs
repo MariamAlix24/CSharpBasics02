@@ -32,6 +32,18 @@
             //Q3
             // Compile Time Error :you cannot put text (string) into an int 
             #endregion
+            #region Question 4
+            //Q4
+            try
+            {
+                int result = 10 / 0;
+            }
+            catch (DivideByZeroException )
+            {
+                Console.WriteLine("Cannot divide by zero.");
+            }
+            finally { Console.WriteLine("Done"); }
+            #endregion
         }
     }
 }
