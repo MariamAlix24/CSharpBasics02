@@ -66,6 +66,15 @@
             int year = int.Parse(yearText);
             Console.WriteLine(year);
             #endregion
+            #region Question9
+            //Q8 continued try parse
+            string badtext = "abc";
+            int result;
+            if (!int.TryParse(badtext, out result))
+            {
+                Console.WriteLine("Conversion failed.");
+            }
+            #endregion
         }
     }
 }
