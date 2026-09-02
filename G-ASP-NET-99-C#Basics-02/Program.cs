@@ -81,6 +81,14 @@
             string pagesString = pagescount.ToString();
             Console.WriteLine(pagesString.GetType());
             #endregion
+            #region Question10
+            //  Q10
+            int copies = 100;
+            object boxedCopies = copies; // Boxing
+            int unboxedCopies = (int)boxedCopies; // Unboxing
+            Console.WriteLine(unboxedCopies);
+            Console.WriteLine(unboxedCopies);
+            #endregion
         }
     }
 }
