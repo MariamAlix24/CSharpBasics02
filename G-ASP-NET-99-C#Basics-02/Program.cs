@@ -46,13 +46,19 @@
             #endregion
             #region Question5
             //Q5
-            int pages =300;
-            double doublePages = pages;
+            int Pages =300;
+            double doublePages = Pages;
             #endregion
             #region Question6
             //Q6
             double price = 49.99;
             int intPrice = (int)price;
+            #endregion
+            #region Question7
+            //Q7
+            string pagesText = "464";
+            int convertedPages = Convert.ToInt32(pagesText);
+            Console.WriteLine(convertedPages);
             #endregion
         }
     }
