@@ -44,6 +44,11 @@
             }
             finally { Console.WriteLine("Done"); }
             #endregion
+            #region Question5
+            //Q5
+            int pages =300;
+            double doublePages = pages;
+            #endregion
         }
     }
 }
