@@ -21,6 +21,13 @@
             object obj = b1;
             Console.WriteLine(obj);
             #endregion
+            #region Question 2
+            //Q2
+            Console.WriteLine(b1.ToString());
+            Console.WriteLine(b1.Equals(b1));
+            Console.WriteLine(b1.GetHashCode());
+            Console.WriteLine(b1.GetType());
+            #endregion
         }
     }
 }
