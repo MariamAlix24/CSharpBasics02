@@ -28,6 +28,10 @@
             Console.WriteLine(b1.GetHashCode());
             Console.WriteLine(b1.GetType());
             #endregion
+            #region Qestion 3
+            //Q3
+            // Compile Time Error :you cannot put text (string) into an int 
+            #endregion
         }
     }
 }
