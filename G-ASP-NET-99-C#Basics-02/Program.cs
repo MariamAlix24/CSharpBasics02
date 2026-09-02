@@ -49,6 +49,11 @@
             int pages =300;
             double doublePages = pages;
             #endregion
+            #region Question6
+            //Q6
+            double price = 49.99;
+            int intPrice = (int)price;
+            #endregion
         }
     }
 }
